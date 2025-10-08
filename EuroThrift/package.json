@@ -2,6 +2,7 @@
       "name": "EuroThrift Website new v1",
       "version": "0.1.0",
       "private": true,
+      "homepage": "https://Flowerafro.github.io/EuroThrift",
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
             "@radix-ui/react-alert-dialog": "^1.1.6",
@@ -54,7 +55,7 @@
       },
       "scripts": {
             "predeploy": "npm run build",
-            "deploy": "gh-pages -d dist",
+            "deploy": "gh-pages -d build",
             "dev": "vite",
             "build": "vite build"
       }
